@@ -2,7 +2,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif;
+}
+
+#login-text {
+  font-size: 18px;
+  margin-top: 3px;
+  margin-right: 5px;
+  align-self: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#login-text-line {
+  font-size: 18px;
+  font-weight: 1000;
+  margin-right: 5px;
+  margin-top: 2px;
 }
 
 .header {
@@ -12,6 +29,7 @@
   align-items: center;
   color: white;
   padding: 0 20px;
+  box-shadow: 0 0px 15px 5px black;
 }
 
 .trybewarts-header-logo {
@@ -20,9 +38,45 @@
   padding-bottom: 5px;
 }
 
+#trybewarts-header-title{
+  align-self: center;
+  font-family: 'Akshar', sans-serif;
+  text-shadow: 0px 0px 15px rgb(255, 255, 255);
+  user-select: none;
+  padding: 0px 30px;
+}
+
 .trybewarts-login {
   display: flex;
   flex-wrap: wrap;
+}
+
+#form-email {
+  width: 150px;
+  margin-right: 3px;
+  border-radius: 5px;
+  padding: 2px;
+  border: 3px solid rgb(22, 131, 111);
+}
+
+#form-password {
+  width: 150px;
+  margin-right: 3px;
+  border-radius: 5px;
+  padding: 2px;
+  border: 3px solid rgb(22, 131, 111);
+}
+
+#form-button{
+  width: 60px;
+  margin-right: 3px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  height: 25px;
+  border: 0px;
+  background-color: rgb(22, 131, 111);
+  cursor: pointer;
 }
 
 #trybewarts-header-title {
@@ -32,7 +86,30 @@
 }
 
 .container {
+  padding-top: 2.5%;
+  padding-bottom: 2.55%;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+  user-select: none;
+}
+
+.container form {
+  background-color: rgb(50, 167, 145, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px black;
+  color: rgb(255, 255, 255);;
+  font-weight: bold;
+  text-shadow: 1px 2px 2px rgb(37, 37, 37);
+}
+
+#background-video {
+  position: absolute;
+  z-index: -100;
+  width: 100%;
+  height: 120.2%;
 }
 
 #evaluation-form {
@@ -46,11 +123,84 @@
 }
 
 .box-wrap-form {
-  width: 500px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  width: 605px;
+  height: 160px;
+  display: flex;
   padding: 20px;
+}
+
+.box-wrap-form > *:not(:nth-child(4)) {
+  width: 100%;
+}
+
+#label-name {
+  margin-left: 30px;
+}
+
+#input-name {
+  height: 25px;
+  border-radius: 5px;
+  padding: 2px;
+  border: 3px solid rgb(22, 131, 111);
+}
+
+#label-lastname {
+  position: relative;
+  left: 290px;
+  top: -29px
+}
+
+#input-lastname {
+  height: 25px;
+  border-radius: 5px;
+  padding: 2px;
+  border: 3px solid rgb(22, 131, 111);
+}
+
+#label-email {
+  position: relative;
+  top: -28px;
+  margin-left: 30px;
+}
+
+#input-email {
+  height: 25px;
+  border-radius: 5px;
+  padding: 2px;
+  border: 3px solid rgb(22, 131, 111);
+}
+
+#label-selector {
+  position: relative;
+  top: -58px;
+  left: 126.5px;
+}
+
+#house {
+  height: 25px;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: white;
+  border: 3px solid rgb(22, 131, 111);
+}
+
+#gitnoria-house {
+  color: red;
+}
+
+#reactpuff-house {
+  color: rgb(75, 75, 255);
+}
+
+#corvinode-house {
+  color: rgb(42, 150, 42);
+}
+
+#pytherina-house {
+  color: rgb(179, 132, 45);
 }
 
 .box-radio {
@@ -77,15 +227,72 @@
   display: flex;
 }
 
+.box-textarea {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.textarea {
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+#textarea {
+  resize: none;
+  max-width: 100%;
+  max-height: 100px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 5px;
+  border: 3px solid rgb(22, 131, 111);
+}
+
+#counter {
+  margin-right: 3px;
+  margin-top: 5px;
+  align-self: flex-end;
+}
+
 #footer {
-  padding: 10px;
+  position: relative;
+  padding: 22px;
   background-color: rgb(50, 167, 145);
   text-align: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 15px 5px black;
+}
+
+#submit-btn:disabled {
+  background-color: rgb(155, 129, 155);
+  border: 3px solid rgb(117, 111, 117);
+  color:rgb(219, 219, 219);
+  cursor: default;
+}
+
+#submit-btn:hover:enabled {
+  position: relative;
+  top: -1px;
 }
 
 #submit-btn {
   width: 500px;
   padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: purple;
+  border: 3px solid rgb(88, 1, 88);
+  font-weight: bold;
   color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#end-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

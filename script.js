@@ -54,7 +54,7 @@ function checkAgreement(origin) {
 }
 
 function textCounter(origin) {
-  mainFormLetterCounter.innerHTML = 500 - origin.target.value.length;
+  mainFormLetterCounter.innerHTML = `${(500 - origin.target.value.length)} Caracteres`;
 }
 
 function submitChanges4() {
