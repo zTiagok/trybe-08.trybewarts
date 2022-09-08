@@ -1,6 +1,6 @@
 <div align="center">
   <h3>
-    Check out this project <a href="-"> website</a>! 
+    Check out this project <a href="https://ztiagok.github.io/trybe-08.trybewarts/"> website</a>! 
   <h3>
   <h2>
     Trybewarts
@@ -28,9 +28,11 @@
     ℹ️ Information ℹ️
   </h3>
   <br>
-  <span> - </span> 
+  <span> After learning how to make a form, we ended up applying its concepts to this project. A themed web form, based on the magical world of Harry Potter and the four houses of Hogwarts.
+ </span> 
+    <span> That's our first duo project! </span>
   <br><br>
-  <span> - </span>
+  <span> Enter your information, such as name, family, what content you most want to learn, and even your favorite house! And don't forget to leave a comment at the bottom of the form. </span>
   <br>
   <hr>
   <h3>
