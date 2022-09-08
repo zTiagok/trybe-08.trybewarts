@@ -13,7 +13,7 @@
   >
   > Version: - 🧪
   >
-  > Developers: Tiago Braga Costa 👤
+  > Developers: Tiago Braga Costa | <a href="https://www.linkedin.com/in/adan-filipe-almeida-bahia-840886a6/"> Adan Felipe Almeida Bahia </a> 👥
 
   <br>
   <hr>
