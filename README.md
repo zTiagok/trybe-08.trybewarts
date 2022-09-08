@@ -71,7 +71,7 @@
     📄 Pages and Components 📄
   </h3>
   <br>
-  <span> - </span>
+  <span> Basic HTML, Javascript and CSS </span>
   <br>
   <hr>
   <h3>
