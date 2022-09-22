@@ -68,11 +68,19 @@
   <br>
   <hr>
   <h3>
-    📄 Pages and Components 📄
+    📄 Features 📄
   </h3>
   <br>
-  <span> Basic HTML, Javascript and CSS </span>
-  <br>
+  <span> ◐ Enter your information such as First Name, Last Name and Email in the form control. ◑ </span>
+  <br><br>
+  <span> ◐ Choose one of four houses from Trybewarts. ◑ </span>
+  <br><br>
+  <span> ◐ Complete the form with your home, what you intend to study and how you evaluate the school. ◑ </span>
+  <br><br>
+  <span> ◐ You may also leave a comment of up to 500 characters. ◑ </span>
+  <br><br>
+  <span> ◐ When you submit the form, you will see your data on the screen. ◑ </span>
+  <br><br>
   <hr>
   <h3>
     📦 Frameworks and Libraries 📦
